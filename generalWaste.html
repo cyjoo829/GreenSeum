@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GreenSEUM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="GreenSEUM-style.css">
+    
+
+    <!--구글 폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Dodum&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav-menu">
+
+    <!--상단 네비게이션 영역 -->
+    <nav id="nav1" class="navbar navbar-expand-md bg-light fixed-top">
+      <div class="container justify-content-start align-items-start">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" width="160" height="50" alt="로고">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon navbar-text"></span>
+          </button>
+          <div class="collapse navbar-collapse nav justify-content-end pt-2" id="nav-menu">
+              <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" href="recycle.html" id="recycleDropdown" role="button" aria-expanded="false">분리수거</a>
+                      <ul class="dropdown-menu" aria-labelledby="recycleDropdown">
+                          <li><a class="dropdown-item" href="recycle.html#recycle-sub1">플라스틱류</a></li>
+                          <li><a class="dropdown-item" href="recycle.html#recycle-sub2">비닐류</a></li>
+                          <li><a class="dropdown-item" href="recycle.html#recycle-sub3">종이류</a></li>
+                          <li><a class="dropdown-item" href="recycle.html#recycle-sub4">캔 & 고철류</a></li>
+                          <li><a class="dropdown-item" href="recycle.html#recycle-sub5">유리</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link active" href="generalWaste.html#generalWaste" id="generalWasteDropdown" role="button" aria-expanded="false">일반쓰레기</a>
+                      <ul class="dropdown-menu" aria-labelledby="generalWasteDropdown">
+                          <li><a class="dropdown-item" href="#generalWaste-sub1">일반쓰레기</a></li>
+                          <li><a class="dropdown-item" href="#generalWaste-sub2">생활폐기물</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link " href="foodWaste.html#foodWaste" id="foodWasteDropdown" role="button" aria-expanded="false">음식물쓰레기</a>
+                      <ul class="dropdown-menu" aria-labelledby="foodWasteDropdown">
+                          <li><a class="dropdown-item" href="foodWaste.html#foodWaste-sub1">음식물쓰레기</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link " href="environment.html#environment" id="environmentDropdown" role="button" aria-expanded="false">오늘의 환경이슈</a>
+                      <ul class="dropdown-menu" aria-labelledby="environmentDropdown">
+                          <li><a class="dropdown-item" href="environment.html#environment-sub1">환경 뉴스</a></li>
+                          <li><a class="dropdown-item" href="environment.html#environment-sub2">실천 블로그</a></li>
+                          <li><a class="dropdown-item" href="environment.html#environment-sub3">질문 게시판</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+    <!--top 버튼-->
+    <div id="top">
+      <button type="button" class=" btn btn-lg"><a href="#generalWaste"><p class="m-0" style="color:#015C00;">TOP</p><i class="m-0 bi bi-arrow-up-circle"></i></a></button>
+    </div>
+  
+    <!--일반쓰레기-->
+    <section id="generalWaste" class="container py-5" >
+      <div class="text-center py-5 mt-5">
+          <h1 class="head display-5">일반쓰레기란?</h2>
+          <p class="lead">생활 폐기물 중에서 연탄재, 재활용가능 폐기물, 대형 폐기물을 제외한 생활폐기물을 뜻합니다.</p>
+      </div>
+      <div class="justify-content-center align-items-center">
+          <div class="text-center ">
+              <h1 class="head p-3">일반쓰레기는 어떻게 처리될까?</h1>
+              <h5 class="fw-bold mb-4">재활용 되지 않은 생활폐기물은 소각, 매립, 해역 배출을 통해 처리됩니다.</h3>
+              <P>소각은 폐기물을 연소시켜 부피를 줄이고 대기 중으로 방출시킨다는 특징이 있지만 인체에 유해한 물질이 발생합니다.</P>
+              <p>매립지는 설치될 때부터 주변 환경을 훼손합니다. 동물 서식지를 파괴하여 생태적 피해를 줍니다.</p>
+              <p>또한 폐기물의 침출수 및 우수 유출 가능성이 있어 주변 수역의 수질오염을 일으키고 유해가스와 악취 등을 일으킵니다.</p>
+              <p>일반 쓰레기 중 53.7%는 분리 배출 했다면 모두 재활용이 가능했다고 합니다.</p>
+              <p>재활용품과 일반쓰레기를 잘 분리하여 자원을 생각하며 사용할 수 있었으면 좋겠습니다.</p>
+          </div>
+      </div>
+    </section>
+
+    <!--서브메뉴-->
+    <section class="menubar py-5 ">
+      <div id="back" class=" m-5 d-flex rounded-4 justify-content-center align-items-center">
+          <p class="mt-4" style="font-size:30px; font-family: 'Do Hyeon' !important; color:#015C00">일반쓰레기</p>
+          <div>
+              <button type="button" class="btn button-custom btn-lg m-3"><a href="#generalWaste-sub1">일반쓰레기</a></button>
+              <button type="button" class="btn button-custom btn-lg m-3"><a href="#generalWaste-sub2">생활폐기물</a></button>
+          </div>
+      </div>
+      <div class="py-4 d-flex justify-content-center align-items-center">
+          <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+      </div>
+    </section>
+
+    <!--sub1-->
+    <section id="generalWaste-sub1" class="container p-5 mt-5">
+      <div class="row mb-4 g-5">
+          <div id="title" class="col-md-4 mb-4 p-4 justify-content-center align-items-center">
+              <div id="move" class="p-2">
+              <h2 class=" text-center m-3" style="color:#015C00; font-family: 'Do Hyeon'">일반쓰레기</h2>
+              <p class="text-center fw-bold" style="font-size: large">배출 방법</p>
+              <p class="text-center">1. 각 지역별 종량제 봉투를 구입합니다.</p>
+              <p class="text-center">2. 재활용품, 음식물을 혼합 배출하지 않습니다.</p>
+              <p class="text-center">3. 지정된 배출요일, 배출 시간을 준수하여 배출합니다.</p>
+              </div>
+          </div>
+          <div class="col-md-8">
+              <div class="width1 flip-card">
+                  <div  class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general.jpg" alt="재활용" width="65" height="65" class="m-2 rounded-circle">
+                          <h4 class="fw-bold p-2" >육류</h4>
+                      </div>
+                      <p class=" px-2">뼈, 포화지방산</p>
+                      <div class="p-2">
+                          <p>살코기와 뼈를 분리하여 뼈만 일반쓰레기로 배출합니다.</p>
+                      </div>
+                  </div>
+                  <div class="ge-bd1 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+              
+              <div class="width1 flip-card">
+                  <div class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general.jpg" alt="재활용" width="65" height="65" class="m-2 rounded-circle">
+                          <h4 class="fw-bold p-2">채소류</h4>
+                      </div>
+                      <p class=" px-2">뿌리, 껍질</p>
+                      <div class="p-2">
+                          <p>쪽파, 대파, 미나리 등의 뿌리</p>
+                          <p>양파,마늘,생강, 옥수수등의 껍질</p>   
+                          <p>고추씨, 고추가루, 고추대, 옥수수대 등</p>          
+                      </div>
+                  </div>
+                  <div class="ge-bd2 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+              
+              <div class="width1 flip-card">
+                  <div  class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general.jpg" alt="재활용" width="65" height="65" class="m-2 rounded-circle">
+                          <h4 class="fw-bold p-2">과일류</h4>
+                      </div>
+                      <p class=" px-2">껍데기, 씨</p>
+                      <div class="p-2 ">  
+                          <p>호두, 밤, 땅콩, 파인애플 등의 딱딱한 껍데기</p>
+                          <p >복숭아, 살구, 감 등의 핵과류의 씨</p>
+                      </div>
+                  </div>
+                  <div class="ge-bd3 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+              
+              <div class="width1 flip-card">
+                  <div  class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general.jpg" alt="재활용" width="65" height="65" class="m-2 rounded-circle">
+                          <h4 class="fw-bold p-2 ">어패류</h4>
+                      </div>
+                      <p class=" px-2">껍데기</p>
+                      <div class="p-2">  
+                          <p>조개, 소라, 전복, 꼬막, 멍게, 굴 등 패류 껍데기</p>
+                          <p>게, 가재 등 갑각류의 껍데기</p>
+                          <p>생선 뼈</p>
+                          <p>복어 내장 등 독성이 있는 음식물</p>
+                      </div>
+                  </div>
+                  <div class="ge-bd4 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+                  
+              <div class="width1 flip-card"> 
+                  <div  class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general.jpg" alt="재활용" width="65" height="65" class="m-2 rounded-circle">
+                          <h4 class="fw-bold p-2">알 껍데기</h4>
+                      </div>
+                      <div class="p-2">  
+                          <p>달걀, 오리알, 메추리알 등의 껍데기</p>
+                      </div>
+                  </div>
+                  <div class="ge-bd5 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+
+              <div class="width1 flip-card">
+                  <div class="flip-card-front mb-4 p-4 justify-content-center align-items-center">    
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general.jpg" alt="재활용" width="65" height="65" class="m-2 rounded-circle">
+                          <h4 class="fw-bold p-2">기타</h4>
+                      </div>
+                      <div class="p-2">  
+                          <p>각종 차류와 커피 및 한약재 찌꺼기</p>
+                          <p>맵고 짠 음식 (예 장류 양념이 묻은 김치 등)</p>
+                      </div>
+                  </div>
+                  <div class="ge-bd6 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+
+          </div>
+      </div>
+      <hr/>
+    </section>
+
+    <!--sub2-->
+    <section id="generalWaste-sub2" class="container p-5 mt-5">
+      <div class="row mb-4 g-5">
+          <div id="title" class="col-md-4 mb-4 p-4 justify-content-center align-items-center">
+              <div id="move" class="p-2">
+              <h2 class=" text-center m-3" style="color:#015C00; font-family: 'Do Hyeon'">생활폐기물</h2>
+              <p class="text-center fw-bold" style="font-size: large">배출 방법</p>
+              <p class="text-center">각 배출 방법에 따라 배출합니다.</p>
+              </div>
+          </div>
+          <div class="col-md-8">
+              <div class="width1 flip-card">
+                  <div  class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general2.png" alt="재활용" width="65" height="65" class="m-2 rounded-circle"style="background-color: #ffffff;">
+                          <h4 class="fw-bold p-2" >불연성쓰레기</h4>
+                      </div>
+                      <p class=" px-2">: 불에 타지 않는 쓰레기</p>
+                      <div class="p-2">
+                          <p>불연성쓰레기 봉투, 폐기물쓰레기 봉투, 마대에 타지 않는,태워서는 안되는 쓰레기를 담아 배출합니다.</p>
+                          <p>재활용품, 음식물쓰레기는 담으면 안됩니다.</p>
+                          <p>유리류, 도자기류, 재활용이 되지 않는 금속류, PVC 파이프, 고양이 배변 모래, 페인트 통, 화분 등</p>
+                      </div>
+                  </div>
+                  <div class="gen-bd1 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+              
+              <div class="width1 flip-card">
+                  <div class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general2.png" alt="재활용" width="65" height="65" class="m-2 rounded-circle"style="background-color: #ffffff;">
+                          <h4 class="fw-bold p-2">대형 폐기물</h4>
+                      </div>
+                      <p class=" px-2">: 쓰레기 종량제 규격봉투에 넣어 배출할 수 없는 폐기물</p>
+                      <div class="p-2">
+                          <p>폐기물 신고 후 직접 배출해서 폐기물 스티커를 붙여 내놓습니다.</p>
+                          <p>대형 폐기물 수거 전문 업체를 통해 폐기 할 수도 있습니다.</p>   
+                          <p>냉장고, 세탁기, 침대, 책상, 이불, 거울, 자전거 등</p>          
+                      </div>
+                  </div>
+                  <div class="gen-bd2 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+              
+              <div class="width1 flip-card">
+                  <div  class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general2.png" alt="재활용" width="65" height="65" class="m-2 rounded-circle"style="background-color: #ffffff;">
+                          <h4 class="fw-bold p-2">유해 폐기물</h4>
+                      </div>
+                      <div class="p-2 ">  
+                          <p>폐형광등, 폐건전지, 폐의약품 등</p>
+                          <p>전용 수거함에 안전하게 배출합니다.</p>
+                          <p>깨진 폐형광등은 신문지로 감싸 사람이 찔리거나 베이지 않도록하여 종량제 봉투에 담아 배출합니다.</p>
+                          <p>폐의약품은 약국, 보건소,로 배출합니다.</p>
+                      </div>
+                  </div>
+                  <div class="gen-bd3 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+              
+              <div class="width1 flip-card">
+                  <div  class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general2.png" alt="재활용" width="65" height="65" class="m-2 rounded-circle"style="background-color: #ffffff;">
+                          <h4 class="fw-bold p-2 ">연탄재</h4>
+                      </div>
+                      <div class="p-2">  
+                          <p>가정에서 발생한 연탄재는 투명 비닐봉지 등에 담아 배출합니다.</p>
+                      </div>
+                  </div>
+                  <div class="gen-bd4 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+                  
+              <div class="width1 flip-card"> 
+                  <div  class="flip-card-front mb-4 p-4 justify-content-center align-items-center">
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general2.png" alt="재활용" width="65" height="65" class="m-2 rounded-circle"style="background-color: #ffffff;">
+                          <h4 class="fw-bold p-2">의류</h4>
+                      </div>
+                      <div class="p-2">  
+                          <p>지자체, 민간 재활용사업자가 비치한 폐의류 전용수거함에 배출합니다.</p>
+                          <p>전용수거함이 없는 지역에서는 물기에 젖지 않도록 마대 등에 담거나 묶어서 배출합니다.</p>
+                      </div>
+                  </div>
+                  <div class="gen-bd5 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+
+              <div class="width1 flip-card">
+                  <div class="flip-card-front mb-4 p-4 justify-content-center align-items-center">    
+                      <div class="d-flex align-items-center">
+                          <img src="images/generalWaste/general2.png" alt="재활용" width="65" height="65" class="m-2 rounded-circle"style="background-color: #ffffff;">
+                          <h4 class="fw-bold p-2">폐식용유</h4>
+                      </div>
+                      <div class="p-2">  
+                          <p>음식물 등 이물질이 섞이지 않게 모아 폐식용유 전용수거함에 배출합니다.</p>
+                      </div>
+                  </div>
+                  <div class="gen-bd6 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                  </div>
+              </div>
+
+              <div class="width1 flip-card">
+                <div class="flip-card-front mb-4 p-4 justify-content-center align-items-center">    
+                    <div class="d-flex align-items-center">
+                        <img src="images/generalWaste/general2.png" alt="재활용" width="65" height="65" class="m-2 rounded-circle"style="background-color: #ffffff;">
+                        <h4 class="fw-bold p-2">영농폐기물류</h4>
+                    </div>
+                    <div class="p-2">  
+                        <p>농약 용기: 폐농약 플라스틱 용기, 폐농약 봉지류만 투명 그물망에 모아서 배출합니다.</p>
+                        <p>수거 보상비를 지급합니다.</p>
+                        <p>농촌 폐비닐: 하우스용, 멀칭용 비닐을 구분하여 흙과 자갈, 잡초를 털어 마을 공동집하장 또는 수거 운반차량 진입이 가능한 일정 장소에 보관합니다.</p>
+                    </div>
+                </div>
+                <div class="gen-bd7 flip-card-back mb-4 p-4 justify-content-center align-items-center">
+                </div>
+              </div>
+
+          </div>
+      </div>
+    </section>    
+
+    <!--푸터 영역-->
+    <footer class="text-white" style="background-color:#015C00">
+      <div class="container d-flex justify-content-start align-items-center py-3">
+        <img src="images/logo2.png" width="160" height="50" alt="로고">
+        <div class="text-start px-5">
+          <p>Copyright <i class="bi bi-c-circle"></i> 2024 Designed by YeonJu</p>
+          <p><i class="bi bi-envelope"></i> cyjoo829@naver.com</p>
+          <p><a class="text-white"href="https://www.instagram.com/green_seum_/" target="_blank"><i class="bi bi-instagram"></i> @green_seum_</a></p>
+          <p>Pictures from pixabay</p>
+        </div>
+      </div>
+  </footer>
+    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
